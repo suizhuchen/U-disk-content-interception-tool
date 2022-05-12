@@ -1,0 +1,44 @@
+
+#include "targetver.h"
+#include "verrsrc.h"
+#include "vol_user_app_info.h"
+
+LANGUAGE 4, 2
+#pragma code_page (936)
+
+_VOL_USER_APP_ICON_RES_ID ICON "D:\\Desktop\\项目\\PPT截取工具\\PPT截取工具\\ico.ico"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 0,0,0,0
+PRODUCTVERSION 0,0,0,0
+FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+#ifdef _DEBUG
+    FILEFLAGS VS_FF_DEBUG
+#else
+    FILEFLAGS 0x0L
+#endif
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+FILESUBTYPE VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "随丶辰"
+            VALUE "FileDescription", "几何画板 5.02 最强中文版"
+            VALUE "FileVersion", "5.0.2.0"
+            VALUE "InternalName", "PPT截取工具"
+            VALUE "LegalCopyright", "Copyright (C) 2011"
+            VALUE "OriginalFilename","PPT截取工具.exe"
+            VALUE "ProductName", "The Geometer's Sketch 5.02 Build 1012RK"
+            VALUE "ProductVersion", "5.0.2.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0804, 1200
+    END
+END
+
+#include "D:\\vol_dev\\win_android_chs_free\\plugins\\vprj_win\\classlib\\sys\\mfc_ui_base\\src\\res\\mfc_ui_base.rc"
